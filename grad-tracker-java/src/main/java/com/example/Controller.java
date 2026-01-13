@@ -1,8 +1,11 @@
+package com.example;
 import javax.swing.*;
 import java.awt.*;
-import java.util.Random;
+import java.awt.event.ActionEvent;
+import java.io.IOException;
+import java.net.ConnectException;
 
-public class Controller1 {
+public class Controller {
     private final View view;
     private final Model model;
 

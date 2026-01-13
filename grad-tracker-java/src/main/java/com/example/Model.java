@@ -1,12 +1,12 @@
+package com.example;
 import javax.swing.*;
 import java.awt.*;
-import java.awt.image.BufferedImage;
 import java.net.URL;
 
-public class Model1 {
+public class Model {
     /*
     * Gets Target
-    * Controller.java will handle input
+    * com.example.Controller.java will handle input
     * */
     public JLabel getTarget() {
         int daysLeft = 0; // Record days left

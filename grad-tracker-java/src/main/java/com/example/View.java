@@ -1,12 +1,16 @@
+package com.example;
 import javax.swing.*;
 import java.awt.*;
+import java.awt.geom.Ellipse2D;
+import java.awt.image.BufferedImage;
+import java.util.ArrayList;
 
-public class View1 extends JFrame {
+public class View extends JFrame {
     private final JPanel mainMenu;
     private final JPanel playArea;
     private final JButton playButton;
 
-    public View1() {
+    public View() {
         this.setTitle("Grad Tracker Java");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(new Dimension(500, 500));
